@@ -6,19 +6,19 @@
 
 2. Check the .NET desktop development box
 
-![InstallStep1](installVS1.PNG)
+![InstallStep1](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/installVS1.PNG?raw=true)
 
 3. Check optional fields ( We are going to need them later in the academy )
 
-![InstallStep1](installVS1.PNG)
+![InstallStep2](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/installVS2.PNG?raw=true)
 
 4. Check ASP.NET and web development box ( For later subjects )
 
-![InstallStep1](installVS1.PNG)
+![InstallStep3](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/installVS3.PNG?raw=true)
 
 5. Check optional fields
 
-![InstallStep1](installVS1.PNG)
+![InstallStep4](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/installVS4.PNG?raw=true)
 
 6. Click install and wait for the program to install
 7. When it is installed open it and log in with a microsoft account
@@ -28,16 +28,22 @@
 2. We login with our account or create an account if we haven't already
 3. We click the plus in the upper right corner and create a new repository
 
-![InstallStep1](HowToGit1.PNG)
+![GitStep1](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/HowToGit1.PNG?raw=true)
 
 4. We add a name for the repository and a description and we click create
+
+![GitStep2](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/HowToGit2.PNG?raw=true)
+
 5. After the repository is created we are going to get a link for cloning our repository
+
+![GitStep3](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/HowToGit3.PNG?raw=true)
+
 6. Copy the link
 7. Open a folder on our file system and click right click while holding shift
 8. Click the option : Open Power Shell Window Here or Open Command Prompt Here
 9. Write **git clone myCopiedLinkFromGit** and hit enter
 
-![InstallStep1](HowToGit1.PNG)
+![GitStep4](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/blob/master/g3/Class%201/img/HowToGit4.PNG?raw=true)
 
 10. You will now have a folder with the name of the repository
 11. Inside it copy some code or application that you want to add to GitHub
