@@ -53,3 +53,11 @@
 15. Write **git push** and hit enter
 16. You now have your changes on github. If you want to make some changes and save to github again, just repeat step 11 to 15
 
+## Extra materials
+[A great article on how to use Git](https://medium.freecodecamp.org/what-is-git-and-how-to-use-it-c341b049ae61)
+
+[A fun way to learn git](https://learngitbranching.js.org/)
+
+[A git tutorial](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+
+[DOT.NET Fiddle - An online tool for running C#](https://dotnetfiddle.net/)
