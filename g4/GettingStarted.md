@@ -1,4 +1,5 @@
-# Class 1
+# Getting Started with Visual Studio and GitHub
+
 ## How to install VS at home
 1. Download Visual Studio Community version from this link:
 
