@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplyer", "DemoConsole\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppleBaskets", "AppleBaskets\AppleBaskets.csproj", "{A4D1E37C-F649-4414-A6DE-33F822FA460A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiggerIsBetter", "BiggerIsBetter\BiggerIsBetter.csproj", "{761C31F6-CE4F-49A5-9C3F-C9BF2D345DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{10DF15B2-E919-4A54-AD28-F5399562B9D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A4D1E37C-F649-4414-A6DE-33F822FA460A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4D1E37C-F649-4414-A6DE-33F822FA460A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4D1E37C-F649-4414-A6DE-33F822FA460A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761C31F6-CE4F-49A5-9C3F-C9BF2D345DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761C31F6-CE4F-49A5-9C3F-C9BF2D345DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761C31F6-CE4F-49A5-9C3F-C9BF2D345DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761C31F6-CE4F-49A5-9C3F-C9BF2D345DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10DF15B2-E919-4A54-AD28-F5399562B9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DF15B2-E919-4A54-AD28-F5399562B9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DF15B2-E919-4A54-AD28-F5399562B9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DF15B2-E919-4A54-AD28-F5399562B9D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
