@@ -10,4 +10,7 @@ Welcome to the Basic C# Development course. This course will be an introductory 
 [Class 1](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/tree/master/g2/Class%201)
 * Introduction to C# and Visual Studio
 
+[Class 2](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/tree/master/g2/Class%202)
+* Data types, conversion and branching
+
 
