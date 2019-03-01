@@ -9,5 +9,5 @@ Welcome to the Basic C# Development course. This course will be an introductory 
 ## Contents
 [Class 1](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/tree/master/g3/Class%201)
 * Introduction to C# and Visual Studio
-
-
+* Working with data types, variables and branching
+* Loops and arrays in C#
