@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2396D31A-3CDF-4158-BF99-45AC9A1BCADE}</ProjectGuid>
+    <ProjectGuid>{2F06797E-08C8-4F70-AD0D-FD8CA3D9B31D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MethodDemo</RootNamespace>
-    <AssemblyName>MethodDemo</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>StringExercise</RootNamespace>
+    <AssemblyName>StringExercise</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
