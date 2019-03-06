@@ -31,6 +31,17 @@ namespace BiggerIsBetter
             }
 
             int bigger = (first > second) ? first : second;
+
+            //int bigger;
+            //if (first > second)
+            //{
+            //    bigger = first;
+            //}
+            //else
+            //{
+            //    bigger = second;
+            //}
+
             bool isEven = bigger % 2 == 0;
             string oddEven = isEven ? "even" : "odd";
 
