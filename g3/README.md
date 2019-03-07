@@ -15,3 +15,6 @@ Welcome to the Basic C# Development course. This course will be an introductory 
 
 [Class 3](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/tree/master/g3/Class%203)
 * Loops and arrays in C#
+
+[Class 4](https://github.com/sedc-codecademy/sedc7-05-oopcsharp/tree/master/g3/Class%204)
+* Working with methods, dates and strings

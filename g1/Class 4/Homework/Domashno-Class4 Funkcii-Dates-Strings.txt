@@ -1,0 +1,22 @@
+
+1. Da se napishe funkcija za presmetka na Faktoriel od daden cel pozitiven broj N:
+Factoriel primer:
+N! = N * (N-1) * (N-2) * ... *2*1;
+5! = 120
+
+Po definicija 0! = 1
+1! = 1
+2! = 1*2 = 2
+3! = 1*2*3 = 6
+...
+
+
+2. Da se analizira programata za formatiranje na Dates dadena vo Dates.cs fajlot. 
+Istata da se stavi vo konzolna aplikacija i posle izvrshuvanje da se popolnat praznite komentari.
+
+
+3. Da se napishe programa koja za daden vnesen tekst od tastatura kje presmeta slednovo:
+	1. Broj na zborovi
+	2. Broj na spaces ' '
+	3. Efektivna dolzina na tekstot (da se zemat vo predvid vodecki i trailing spaces)
+	
