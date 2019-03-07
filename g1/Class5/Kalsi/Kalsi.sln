@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalsi", "Kalsi\Kalsi.csproj", "{5BF9221B-927C-490D-A9D5-DE6EB8CB1067}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BF9221B-927C-490D-A9D5-DE6EB8CB1067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF9221B-927C-490D-A9D5-DE6EB8CB1067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF9221B-927C-490D-A9D5-DE6EB8CB1067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF9221B-927C-490D-A9D5-DE6EB8CB1067}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {968302B4-0B28-45C3-8E3E-B51D67732718}
+	EndGlobalSection
+EndGlobal
