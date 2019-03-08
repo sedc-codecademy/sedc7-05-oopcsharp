@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonDemo", "PersonDemo\PersonDemo.csproj", "{C271BEDB-4E37-4B06-9F5A-4981F1E7787C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humanity", "Humanity\Humanity.csproj", "{55B9BD47-676B-4601-BCE8-A27F72C0BAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogz", "Dogz\Dogz.csproj", "{7F5FCC59-DB55-4645-8DAB-95E12DA52F2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C271BEDB-4E37-4B06-9F5A-4981F1E7787C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C271BEDB-4E37-4B06-9F5A-4981F1E7787C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C271BEDB-4E37-4B06-9F5A-4981F1E7787C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B9BD47-676B-4601-BCE8-A27F72C0BAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B9BD47-676B-4601-BCE8-A27F72C0BAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B9BD47-676B-4601-BCE8-A27F72C0BAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B9BD47-676B-4601-BCE8-A27F72C0BAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F5FCC59-DB55-4645-8DAB-95E12DA52F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5FCC59-DB55-4645-8DAB-95E12DA52F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5FCC59-DB55-4645-8DAB-95E12DA52F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5FCC59-DB55-4645-8DAB-95E12DA52F2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
