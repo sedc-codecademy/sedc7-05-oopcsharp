@@ -1,16 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Store.App.Classes
 {
     class Cart
     {
-        private Product[] items = new Product[0];
-        private double totalPrice = 0;
-        private int discountPercent = 0;
+        private Product[] items;
+        private double totalPrice;
+        private int discountPercent;
+
+        public Cart()
+        {
+            items = new Product[0];
+            totalPrice = 0;
+            discountPercent = 0;
+        }
 
         public void AddItem(Product product)
         {
