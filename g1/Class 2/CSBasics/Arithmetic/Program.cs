@@ -13,8 +13,9 @@ namespace Arithmetic
          */
         static void Main(string[] args)
         {
-            int a, b;
-            a = 20; b = 10;
+            int a;
+            string b;
+            a = 20; b = "emi";
 
             Console.WriteLine("a = {0}, b = {1} ", a, b);
             //Console.WriteLine($"a = {a}, b = {b} ");
