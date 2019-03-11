@@ -19,5 +19,15 @@ namespace DogPound
         {
             throw new NotImplementedException();
         }
+
+        internal Dog[] GetHungryDogs()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal Dog FindByBreed(string breed)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
