@@ -1,2 +1,5 @@
-# sedc7-05-oopcsharp
-Source code repository for SEDC Code Academy 7.0 5th subject 'OOP with C#' G5 students exercises.
+# "C# Basic" examples repository for G5
+Овде може да ги најдете примерите и вежбите што ги поминуваме на предавањата.
+
+Ако го немате клонирано репото, во папката Class01 во фајлот Readme.md имате 
+објаснување како да се справите со Git.
