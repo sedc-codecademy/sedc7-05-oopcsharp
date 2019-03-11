@@ -36,11 +36,34 @@ namespace BlackJack
             Dealer.DiscardCards();
             Dealer.GetCard(Deck.TopCard);
 
+
             foreach (var player in Players)
             {
                 player.GetCard(Deck.TopCard);
             }
             Dealer.GetCard(Deck.TopCard);
+        }
+
+        internal void PlayGame()
+        {
+            foreach (var player in Players)
+            {
+                while (player.GetHandValue() < 17)
+                {
+                    player.GetCard(Deck.TopCard);
+                }
+            }
+            while (Dealer.GetHandValue() < 17)
+            {
+                Dealer.GetCard(Deck.TopCard);
+            }
+
+        }
+
+        public GameResults GetResults()
+        {
+            var results = new GameResults(Players, Dealer);
+            return results;
         }
 
         public override string ToString()

@@ -24,6 +24,14 @@ namespace BlackJack
             table.StartNewGame();
 
             Console.WriteLine(table);
+
+            table.PlayGame();
+
+            Console.WriteLine(table);
+
+            var results = table.GetResults();
+            Console.WriteLine(results);
+
         }
     }
 }
