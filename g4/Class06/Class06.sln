@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogsWorld", "DogsWorld\Dogs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogPound", "DogPound\DogPound.csproj", "{1F6A3135-431B-43D9-82C2-E8177814A4FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "Poker\BlackJack.csproj", "{F311BCC4-46ED-4687-BE44-DA7F86F9D7CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1F6A3135-431B-43D9-82C2-E8177814A4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F6A3135-431B-43D9-82C2-E8177814A4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F6A3135-431B-43D9-82C2-E8177814A4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F311BCC4-46ED-4687-BE44-DA7F86F9D7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F311BCC4-46ED-4687-BE44-DA7F86F9D7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F311BCC4-46ED-4687-BE44-DA7F86F9D7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F311BCC4-46ED-4687-BE44-DA7F86F9D7CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
