@@ -10,10 +10,18 @@ namespace BlackJack
     {
         public List<Card> Cards { get; set; }
 
+        public Card TopCard {
+            get {
+                Card result = Cards[0];
+                Cards.Remove(result);
+                return result;
+            }
+        }
+
         public Deck()
         {
             Cards = new List<Card>();
-            string[] ranks = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Ten", "10", "Jack", "Queen", "King" };
+            string[] ranks = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
             string[] suits = { "Spades", "Hearts", "Clubs", "Diamonds" };
 
             foreach (var rank in ranks)
@@ -38,5 +46,10 @@ namespace BlackJack
             return sb.ToString();
         }
 
+        public void Shuffle()
+        {
+            Random r = new Random();
+            Cards = Cards.OrderBy(card => r.Next()).ToList();
+        }
     }
 }

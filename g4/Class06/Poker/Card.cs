@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    class Card
+    public class Card
     {
         public string Rank { get; private set; }
         public string Suit { get; private set; }
@@ -17,6 +17,9 @@ namespace BlackJack
             Suit = suit;
         }
 
-
+        public override string ToString()
+        {
+            return $"{Rank} of {Suit}";
+        }
     }
 }
