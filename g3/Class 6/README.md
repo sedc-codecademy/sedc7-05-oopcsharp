@@ -59,6 +59,9 @@ You withdrew 250\$. You have 400\$ left on your account.
 Thank you for using the ATM app.
  
 **Bonus:** The balance and pin should not be public
+
 **Bonus:** The ATM card number to be a number instead of a string. The user should still input 1234-1234-1234-1234.
+
 **Bonus:** When the Customer finishes with a transaction a question must pop up if the Customer wants to do another action. If not it should print a goodbye message and show up the login menu again.
+
 **Bonus:** Add an option to register a new card in the system that store the customer in the system if the card number is not used for any other customer
