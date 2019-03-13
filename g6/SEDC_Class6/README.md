@@ -50,6 +50,12 @@ If not found, it should print an error message
 
 **56 Username4**
 
+**Bonus**
+
+The User should be asked to choose between Y/N options. 
+If he chooses Y the aplication should run again, and 
+If he chooses N tha aplication should stop
+
 ## Exercise 03
 Create an ATM application. A customer should be able to authenticate with card number and pin and should be greeted with a message greeting them by full name. After that they can choose one of the following:
 1) Balance checking - This should print out the current balance of money on their account
