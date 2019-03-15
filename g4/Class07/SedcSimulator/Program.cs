@@ -10,15 +10,30 @@ namespace SedcSimulator
     {
         static void Main(string[] args)
         {
-            var student = new Student("A1", "Ime", "Prezime");
+            var vukasin = new Student("123", "Vukasin", "Obradovic");
+            Console.WriteLine(vukasin.GetFullName());
 
-            Console.WriteLine(student.GetFullName());
+            //Person person = student;
+            //Console.WriteLine(person.GetFullName());
 
-            Person person = student;
-            person.FirstName = "Vukasin";
+            var availability = new List<DayOfWeek> { DayOfWeek.Monday, DayOfWeek.Friday };
+            var wekoslav = new Lecturer("Wekoslav", "Stefanovski", availability);
 
-            Console.WriteLine(student.GetFullName());
-            Console.WriteLine(person.GetFullName());
+            Console.WriteLine(wekoslav.GetFullName());
+
+            //person = lecturer;
+            //Console.WriteLine(person.GetFullName());
+
+            Console.WriteLine("-------------");
+            var persons = new List<Person>();
+            persons.Add(vukasin);
+            persons.Add(wekoslav);
+
+            foreach (Person person in persons)
+            {
+                Console.WriteLine(person.GetFullName());
+            }
+
 
 
         }
