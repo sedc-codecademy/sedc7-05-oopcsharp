@@ -17,7 +17,7 @@ namespace Methods
             var notToday = new DateTime(1988, 02, 19).Month;
             Console.WriteLine("{0:dddd/MMMM/yyyy} year", today);
             Console.WriteLine(notToday);
-
+            Console.WriteLine(DateTime.Now.AddMonths(4));
             #endregion
 
             #region Strings
