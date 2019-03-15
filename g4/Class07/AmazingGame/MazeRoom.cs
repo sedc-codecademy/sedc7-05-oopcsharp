@@ -15,30 +15,47 @@ namespace AmazingGame
         public bool HasWestDoor { get; set; }
         public bool HasEastDoor { get; set; }
 
+        private string CheckDoorFlag(bool flag, string directionName)
+        {
+            if (flag)
+            {
+                return $"The \"{Name}\" room has a {directionName} door";
+            }
+            else
+            {
+                return $"The \"{Name}\" room does not have a {directionName} door";
+            }
+        }
+
         public string CheckDoor(Direction direction)
         {
             switch (direction)
             {
                 case Direction.North:
-                    break;
+                    return CheckDoorFlag(HasNorthDoor, "northern");
                 case Direction.South:
-                    break;
+                    return CheckDoorFlag(HasSouthDoor, "southern");
                 case Direction.East:
-                    break;
+                    return CheckDoorFlag(HasEastDoor, "eastern");
                 case Direction.West:
-                    break;
+                    return CheckDoorFlag(HasWestDoor, "western");
                 default:
                     throw new Exception("Something broke");
             }
-            return "NE RABOTE";
         }
+
+        public bool HasDoor(Direction direction)
+        {
+            return false;
+        }
+
 
         public void CheckDoors()
         {
-            CheckDoor(Direction.North);
-            CheckDoor(Direction.South);
-            CheckDoor(Direction.East);
-            CheckDoor(Direction.West);
+            Console.WriteLine(CheckDoor(Direction.North));
+            Console.WriteLine(CheckDoor(Direction.South));
+            Console.WriteLine(CheckDoor(Direction.East));
+            Console.WriteLine(CheckDoor(Direction.West));
         }
     }
 }
