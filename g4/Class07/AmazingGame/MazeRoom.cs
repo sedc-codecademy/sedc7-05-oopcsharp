@@ -46,9 +46,20 @@ namespace AmazingGame
 
         public bool HasDoor(Direction direction)
         {
-            return false;
+            switch (direction)
+            {
+                case Direction.North:
+                    return HasNorthDoor;
+                case Direction.South:
+                    return HasSouthDoor;
+                case Direction.East:
+                    return HasEastDoor;
+                case Direction.West:
+                    return HasWestDoor;
+                default:
+                    throw new Exception("Something broke");
+            }
         }
-
 
         public void CheckDoors()
         {

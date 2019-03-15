@@ -6,11 +6,9 @@ namespace AmazingGame
     {
         public List<MazeRoom> Rooms { get; private set; }
 
-        public Maze()
+        public Maze(List<MazeRoom> rooms)
         {
-            Rooms = new List<MazeRoom>();
-
-
+            Rooms = rooms;
         }
 
     }
