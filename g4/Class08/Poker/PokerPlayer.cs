@@ -9,7 +9,7 @@ namespace Poker
         {
             // 1. check if all cards are different
             // hint use grouping
-            return null;
+            return HandValue.GetEmpty();
         }
     }
 }

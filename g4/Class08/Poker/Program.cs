@@ -11,17 +11,17 @@ namespace Poker
         static void Main(string[] args)
         {
             Table table = new Table();
-            var playerOne = new BlackJackPlayer { Name = "Player one" };
-            var playerTwo = new BlackJackPlayer { Name = "Player Two" };
+            var playerOne = new PokerPlayer { Name = "Player one" };
+            var playerTwo = new PokerPlayer { Name = "Player Two" };
+            var playerThree = new PokerPlayer { Name = "Player Three" };
+            var playerFour = new PokerPlayer { Name = "Player Four" };
 
             table.AddPlayer(playerOne);
             table.AddPlayer(playerTwo);
+            table.AddPlayer(playerThree);
+            table.AddPlayer(playerFour);
 
             table.StartNewGame();
-
-            Console.WriteLine(table);
-
-            table.PlayGame();
 
             Console.WriteLine(table);
 
