@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Text;
 
 namespace Poker
 {
@@ -23,6 +24,16 @@ namespace Poker
                 HighCardValue[i] = handValue.HighCard;
                 HandTypes[i] = handValue.HandType;
             }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < PlayerNames.Length; i++)
+            {
+                sb.AppendLine($"{PlayerNames[i]} has a hand type of {HandTypes[i]} with a high card of {HighCardValue[i]}");
+            }
+            return sb.ToString();
         }
 
     }
