@@ -26,7 +26,7 @@ namespace Cards
             Cards.Clear();
         }
 
-        public string ShowHand()
+        public virtual string ShowHand()
         {
             StringBuilder sb = new StringBuilder();
             foreach (var card in Cards)

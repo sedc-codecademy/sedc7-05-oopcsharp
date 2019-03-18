@@ -7,59 +7,20 @@ using System.Threading.Tasks;
 
 namespace BlackJack
 {
-    public class BlackJackPlayer: Player
+    public class BlackJackPlayer : Player
     {
+        const int limit = 21;
+
         public int GetHandValue()
         {
-            int result = 0;
-            foreach (var card in Cards)
-            {
-                if (card.Rank == Rank.Ace)
-                {
-                    continue;
-                }
-                switch (card.Rank)
-                {
-                    case Rank.Two:
-                        result += 2;
-                        break;
-                    case Rank.Three:
-                        result += 3;
-                        break;
-                    case Rank.Four:
-                        result += 4;
-                        break;
-                    case Rank.Five:
-                        result += 5;
-                        break;
-                    case Rank.Six:
-                        result += 6;
-                        break;
-                    case Rank.Seven:
-                        result += 7;
-                        break;
-                    case Rank.Eight:
-                        result += 8;
-                        break;
-                    case Rank.Nine:
-                        result += 9;
-                        break;
-                    case Rank.Ten:
-                    case Rank.Jack:
-                    case Rank.Queen:
-                    case Rank.King:
-                        result += 10;
-                        break;
-                }
-            }
+            int result = Cards
+               .Where(card => card.Rank != Rank.Ace)
+               .Select(card => GetCardValue(card.Rank))
+               .Sum();
 
-            foreach (var card in Cards)
+            foreach (var card in Cards.Where(card => card.Rank == Rank.Ace))
             {
-                if (card.Rank != Rank.Ace)
-                {
-                    continue;
-                }
-                if (result + 11 > 21)
+                if (result + 11 > limit)
                 {
                     result += 1;
                 }
@@ -69,6 +30,41 @@ namespace BlackJack
                 }
             }
             return result;
+        }
+
+        private int GetCardValue(Rank rank)
+        {
+            Dictionary<Rank, int> values = new Dictionary<Rank, int>
+            {
+                {Rank.Two, 2},
+                {Rank.Three, 3},
+                {Rank.Four, 4},
+                {Rank.Five, 5},
+                {Rank.Six, 6 },
+                {Rank.Seven, 7},
+                {Rank.Eight, 8},
+                {Rank.Nine, 9},
+                {Rank.Ten, 10},
+                {Rank.Jack, 10},
+                {Rank.Queen, 10},
+                {Rank.King, 10}
+            };
+
+            if (values.ContainsKey(rank))
+            {
+                return values[rank];
+            }
+
+            throw new Exception($"Invalid card {rank}");
+            
+        }
+
+        public override string ShowHand()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(base.ShowHand());
+            sb.AppendLine($"Hand value is {GetHandValue()}");
+            return sb.ToString();
         }
 
     }

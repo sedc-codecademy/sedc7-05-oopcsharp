@@ -42,11 +42,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameResults.cs" />
+    <Compile Include="HandType.cs" />
+    <Compile Include="HandValue.cs" />
+    <Compile Include="PokerPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cards\Cards.csproj">
+      <Project>{df857e9c-02b1-4d14-9c72-de2c4d3cdebf}</Project>
+      <Name>Cards</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

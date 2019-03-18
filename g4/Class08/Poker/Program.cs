@@ -10,12 +10,23 @@ namespace Poker
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            Table table = new Table();
+            var playerOne = new BlackJackPlayer { Name = "Player one" };
+            var playerTwo = new BlackJackPlayer { Name = "Player Two" };
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            table.AddPlayer(playerOne);
+            table.AddPlayer(playerTwo);
+
+            table.StartNewGame();
+
+            Console.WriteLine(table);
+
+            table.PlayGame();
+
+            Console.WriteLine(table);
+
+            var results = table.GetResults();
+            Console.WriteLine(results);
         }
     }
 }

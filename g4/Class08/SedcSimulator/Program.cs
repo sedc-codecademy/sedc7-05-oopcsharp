@@ -13,7 +13,7 @@ namespace BlackJack
         {
             Table table = new Table();
             var playerOne = new BlackJackPlayer { Name = "Player one" };
-            var playerTwo = new BlackJackPlayer { Name = "Player Two" };
+            var playerTwo = new BlackJackPlayer{ Name = "Player Two" };
 
             table.AddPlayer(playerOne);
             table.AddPlayer(playerTwo);
