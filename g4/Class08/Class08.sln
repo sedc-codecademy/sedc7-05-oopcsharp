@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "SedcSimulator\BlackJack.csproj", "{D84B6D7D-D8B7-42DD-BFD1-EC24FA332293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker\Poker.csproj", "{1A2CEF17-EBEA-4E77-9223-FD29FB7458FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{DF857E9C-02B1-4D14-9C72-DE2C4D3CDEBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D84B6D7D-D8B7-42DD-BFD1-EC24FA332293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84B6D7D-D8B7-42DD-BFD1-EC24FA332293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84B6D7D-D8B7-42DD-BFD1-EC24FA332293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84B6D7D-D8B7-42DD-BFD1-EC24FA332293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2CEF17-EBEA-4E77-9223-FD29FB7458FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2CEF17-EBEA-4E77-9223-FD29FB7458FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2CEF17-EBEA-4E77-9223-FD29FB7458FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2CEF17-EBEA-4E77-9223-FD29FB7458FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF857E9C-02B1-4D14-9C72-DE2C4D3CDEBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF857E9C-02B1-4D14-9C72-DE2C4D3CDEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF857E9C-02B1-4D14-9C72-DE2C4D3CDEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF857E9C-02B1-4D14-9C72-DE2C4D3CDEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41F93949-2E52-4203-9F08-1A681B3BA5B0}
+	EndGlobalSection
+EndGlobal
